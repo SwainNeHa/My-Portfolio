@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name"><u>Neha</u></p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <!-- 1 -->
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+
+                    <!-- 2 -->
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+
+                    <!-- 3 -->
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+
+                    <!-- 4 -->
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- DARK MODE -->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+
+            <!-- BUTTON -->
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#Black"><path d="M144-264v-72h672v72H144Zm0-180v-72h672v72H144Zm0-180v-72h672v72H144Z"/></svg></i>
+            </div>
+        </nav>
+
+        <!-- MAIN SECTION-->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I'm</p>
+                    </div>
+
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+
+                    <div class="text-info">
+                        <p> I'm Neha, a skilled and creative web developer with a creating beautiful, responsive, and user-friendly websites. I've worked on a variety of web projects, ranging from personal blogs to e-commerce platforms.
+                        </p>
+                    </div>
+
+                    <div class="text-btn">
+                        <button class="btn hire-btn">Hire Me</button>
+                    </div>
+
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <div class="icon"><i class="fa-brands fa-github"></i></div>
+                        <div class="icon"><i class="fa-brands fa-whatsapp"></i></div>
+                        <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+
+                    </div>
+                </div>
+
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="/Pics/My Pic.png" alt="" width="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT BOX -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="" alt="" class="profile" />
+                                    <h2>Web Developer</h2>
+                                    <p>Welcome to my web developer portfolio! I'm Neha Niharika Swain, a skilled and creative web developer with a creating beautiful, responsive, and user-friendly websites. I've worked on a variety of web projects, blogs
+                                        to e-commerce platforms.
+                                    </p>
+                            </figure>
+
+                            <button class="about-me-btn">Hire Me</button>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <!-- 1 -->
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar html">
+                                <span class="skill-per">
+                                    <span class="tooltip">100%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar css">
+                                <span class="skill-per">
+                                    <span class="tooltip">100%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="skill-box">
+                            <span class="title">JavaScript</span>
+                            <div class="skill-bar javascript">
+                                <span class="skill-per">
+                                    <span class="tooltip">100%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Box -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+
+                <div class="project-container">
+                    <!-- 1 -->
+                    <div class="project-box">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h3>Completed</h3>
+                        <label>4 Finished Projects</label>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="project-box">
+                        <i class="fa-solid fa-award"></i>
+                        <h3>Experience</h3>
+                        <label>3 Months</label>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="project-box">
+                        <i class="fa-solid fa-user"></i>
+                        <h3>Clients</h3>
+                        <label>2 Happy Clients</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT BOX -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span>Do you have a project in your mind, then contact me here</span>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me </h2>
+                            <p><i class="fa-solid fa-envelope"></i>Email: nehaniharikaswain@07gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Your Name">
+                                <input type="text" class="input-field" placeholder="Your Email">
+                            </div>
+
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="Subject">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+
+                            <div class="form-button">
+                                <button class="btn">Submit<i class="fa-solid fa-paper-plane"></i></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER SECTION -->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <!-- 1 -->
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+
+                    <!-- 2 -->
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+
+                    <!-- 3 -->
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+
+                    <!-- 4 -->
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="social_icons">
+                <div class="footer-social-icons">
+                    <div class="icon"><i class="fa-brands fa-github"></i></div>
+                    <div class="icon"><i class="fa-brands fa-whatsapp"></i></div>
+                    <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- LINKING JAVASCRIPT WITH HTML -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
